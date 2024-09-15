@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Details Lookup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <h1>
+          Get the DOB of your Friend &<br />
+          <span>Check Result</span>
+        </h1>
+        <div class="input-box">
+          <input type="text" id="rollNo" placeholder="Roll No......" />
+          <button onclick="getUserDetails()">Get Details</button>
+        </div>
+      </div>
+      <div class="result">
+        <div class="resultcontainer">
+          <div id="userResult"></div>
+          <div id="error"></div>
+        </div>
+        <div id="button"></div>
+        <!-- <iframe src="https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx" frameborder="0">Check result</iframe> -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
