@@ -68,7 +68,7 @@ button {
 }
 
 #button button {
-    width: 350px;
+    width: 400px;
     margin-left: 30%;
     font-size: 20px;
     letter-spacing: 3px;
@@ -121,10 +121,6 @@ button {
 strong {
     color: #ffff76;
     border-bottom: 15px;
-}
-
-#button {
-    margin-left: 50px;
 }
 
 /* Add Media Query for Mobile Devices */
@@ -183,4 +179,15 @@ strong {
         font-size: 16px;
         margin-left: 0;
     }
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+footer a{
+    color: #fff;
 }
